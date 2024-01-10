@@ -1,0 +1,82 @@
+.btn-table {
+    display: flex;
+    gap: 5px;
+}
+
+.btn {
+    width: 80px;
+    border-radius: 25px;
+    /* Adicione esta linha */
+}
+
+.btn-form {
+    width: 100px;
+    
+}
+.container-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa 100% da altura da viewport */
+  
+}
+
+
+/* Estilos específicos para telas menores (tablets e dispositivos maiores) */
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .col {
+        margin-bottom: 10px;
+    }
+
+    .btn-form {
+        width: 100%;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th {
+        min-width: 50px; 
+    }
+
+    .btn-table {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .btn {
+        width: 100%;
+        border-radius: 25% 10%; /* Adicione esta linha */
+    }
+}
+
+/* Estilos específicos para telas menores */
+@media only screen and (max-width: 468px) {
+    .btn-form {
+        width: 100%;
+    }
+    .container {
+        padding: 0 5px;
+    }
+}
+
+
+
+.card-title {
+    text-align: center;
+}
+
+.card-title h2 {
+    font-size: 2em; 
+    color: #333;
+    margin-bottom: 20px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}

@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgba(158, 180, 209, 0.418);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.795)), url('/img/capa.jpg');
+    
+  }
+  
+
+  .card-title {
+    text-align: center;
+    background-color: rgba(74, 80, 83, 0.13);
+  }
+  
+  .card-title h2 {
+    font-size: 3em; 
+    color: #333;
+    margin-bottom: 20px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+   
+   
+  }
+  
+  
+ 
+  
