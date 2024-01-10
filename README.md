@@ -25,30 +25,29 @@ Este projeto é uma aplicação web simples para gerenciar a matrícula de aluno
    git clone https://github.com/issaflores/tabela-de-alunos.git
 Navegue até o diretório do projeto.
 
-bash
+ ** bash
 Copy code
 cd tabela-de-alunos
 Instale as dependências.
 
-bash
+ ** bash
 Copy code
 npm install
 Inicie a aplicação.
 
-bash
+ ** bash
 Copy code
 npm start
 Abra a aplicação no navegador.
 
-Acesse http://localhost:3000 no seu navegador.
-Estrutura do Projeto
-src/: Contém o código-fonte da aplicação.
-components/: Componentes React reutilizáveis.
-App.jsx: Componente principal da aplicação.
-alunos.css: Estilos CSS específicos para a página de alunos.
-index.js: Ponto de entrada da aplicação.
-public/: Contém arquivos públicos, como o arquivo HTML principal.
-Contribuições
+
+** Estrutura do Projeto
+- src/: Contém o código-fonte da aplicação.
+- App.jsx: Componente principal da aplicação.
+- alunos.css: Estilos CSS específicos para a página de alunos.
+- index.js: Ponto de entrada da aplicação.
+ - public/: Contém arquivos públicos, como o arquivo HTML principal.
+## Contribuições
 Contribuições são bem-vindas! Se você encontrar problemas, bugs ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 Licença
